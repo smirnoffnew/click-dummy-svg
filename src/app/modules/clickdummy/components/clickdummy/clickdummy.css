@@ -1,0 +1,86 @@
+#paper-html-elements {
+  background-image: linear-gradient( 90deg, #08161f 345px, #eceff1 0px);
+}
+
+.element-img {
+  z-index: 100000;
+  position: relative;
+}
+
+.element-content {
+  background-color: #fff;
+
+}
+
+.child-element {
+  /*background-color: transparent;*/
+  /*width: 300px;*/
+  /*height: 300px; */
+  /*background-color: #fff;*/
+}
+
+.html-element {
+  position: absolute;
+  pointer-events: none;
+  -webkit-user-select: none;
+  border-radius: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.html-element input {
+  pointer-events: auto;
+  outline: none;
+  border: 0px solid #bdbdbd;
+  border-top-width: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #333;
+  height: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 10;
+}
+
+
+.html-element button.delete {
+  pointer-events: auto;
+  color: white;
+  border: none;
+  background-color: #C0392B;
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 15px;
+  text-align: center;
+  position: absolute;
+  top: -17.5px;
+  left: -17.5px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+  display:none;
+}
+
+.html-element button.delete:hover {
+  background-color: #ff4835;
+}
+
+.delete-button-img{
+  cursor: pointer;
+  display: none;
+}
+
+.inPorts {
+  display:none;
+}
+
+.outPorts {
+  display:none;
+}
+
+
